@@ -1,0 +1,28 @@
+# WDBC Classification - Short Report
+
+1. Which classifiers did you test?
+   The following four classifiers were tested:
+   - Support Vector Machine (SVM)
+   - Decision Tree
+   - K-Nearest Neighbors (KNN)
+   - Random Forest
+
+2. Which classifier gave the best accuracy?
+   The Random Forest classifier achieved the highest accuracy of 96.49%.
+
+3. What does the confusion matrix show?
+   The confusion matrix summarizes the prediction results by comparing the actual labels with the predicted labels. For the best model (Random Forest), it showed:
+   - 40 Malignant cases correctly identified (True Negatives).
+   - 70 Benign cases correctly identified (True Positives).
+   - 3 Malignant cases misclassified as Benign (False Positives).
+   - 1 Benign case misclassified as Malignant (False Negatives).
+
+4. Was the model good at predicting both classes?
+   Yes, the model performed exceptionally well on both classes. With an overall accuracy of ~96.5% and balanced precision and recall scores, it demonstrated high reliability in identifying both malignant and benign tumors with minimal errors.
+
+5. Why is documentation important in an open-source ML project?
+   Documentation is critical for:
+   - Reproducibility: Allowing others to replicate the experiments and verify results.
+   - Transparency: Explaining the dataset, preprocessing steps, and model choices.
+   - Collaboration: Helping other developers and researchers understand the code and contribute to the project.
+   - Accessibility: Making the project usable for individuals who may not be familiar with the internal workings of the code.
